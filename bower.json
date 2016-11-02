@@ -1,0 +1,39 @@
+{
+  "name": "ng-util-directives",
+  "version": "1.0.0",
+  "description": "Some Angular 1.x useful directives",
+  "homepage": "https://github.com/joseluisq/ng-util-directives",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joseluisq/ng-util-directives.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "José Luis Quintana <http://git.io/joseluisq>"
+  ],
+  "main": "ng-util-directives.js",
+  "keywords": [
+    "angular",
+    "directives",
+    "utility",
+    "jquery",
+    "form-validation",
+    "datetimepicker",
+    "datepicker"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "gulpfile.babel.js",
+    "package.json",
+    ".gitignore",
+    ".gitattributes",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.1",
+    "moment": "^2.15.2"
+  }
+}
