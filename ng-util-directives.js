@@ -41,9 +41,10 @@
         link: function (scope, el, attrs, ngModelCtrl) {
           $(function () {
             var format = attrs.datetimepickerFormat || 'DD/MM/YYYY HH:mm:ss'
+            var locale = attrs.datetimepickerLocale || 'en'
 
             el.datetimepicker({
-              locale: 'es',
+              locale: locale,
               format: format,
               icons: {
                 time: 'fa fa-clock-o',
