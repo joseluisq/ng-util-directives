@@ -26,9 +26,9 @@ Usage:
 
 ```html
 <div class="form-group">
-  <div class="input-group date" name="txttime" name="txttime"
+  <div class="input-group date" name="txttime"
     placeholder="Select your time"
-    ng-model="duration" datetimepicker datetimepicker-format="HH:mm:ss">
+    ng-model="duration" datetimepicker datetimepicker-format="DD/MM/YYYY HH:mm:ss" datetimepicker-locale="es">
 
     <input type="text" class="form-control">
 
@@ -48,12 +48,12 @@ Usage:
 
   <form formvalidation formvalidation-submit="app.onSubmit()">
     <fieldset class="form-group">
-      <input class="form-control" id="txtemail" name="txtemail"
+      <input class="form-control" name="txtemail"
         ng-model="app.email"
         required
         data-msg-required="Enter your e-mail"
         data-rule-email="true"
-        data-msg-email="Enter a valid e-mail format"
+        data-msg-email="Enter a valid e-mail format">
     </fieldset>
   </form>
 
