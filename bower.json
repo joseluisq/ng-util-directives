@@ -1,6 +1,5 @@
 {
   "name": "ng-util-directives",
-  "version": "1.0.0",
   "description": "Some Angular 1.x useful directives",
   "homepage": "https://github.com/joseluisq/ng-util-directives",
   "repository": {
