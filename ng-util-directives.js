@@ -15,7 +15,7 @@
 
             el.validate({
               errorPlacement: function (error, element) {
-                $(element).parent().parent().append(error)
+                $(element).parent().append(error)
               },
               highlight: function (element, errorClass) {
                 $(element).addClass(errorClass)
